@@ -1,6 +1,13 @@
 const grid = document.querySelector('.grid');
 const resultsDisplay = document.querySelector('.results');
 
+const color = document.getElementById('color');
+
+color.onchange = function modify(e) {
+	const el = document.getElementById('canvas');
+	el.style.backgroundColor = e.target.value;
+};
+
 let currentShooterIndex = 202;
 let width = 15;
 let direction = 1;

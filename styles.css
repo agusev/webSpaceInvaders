@@ -12,6 +12,9 @@ body {
 	border: solid black 1px;
 	display: flex;
 	flex-wrap: wrap;
+}
+
+#canvas {
 	background-color: blanchedalmond;
 }
 
@@ -38,4 +41,17 @@ body {
 
 .boom {
 	background-color: red;
+}
+
+#colorPicker {
+	display: flex;
+	font-size: larger;
+	padding: 5px 30px;
+	align-items: center;
+}
+
+input[type='color'] {
+	height: 30px;
+	width: 50px;
+	margin-left: 15px;
 }
